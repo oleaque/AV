@@ -9,10 +9,10 @@
 <?php
 $total = 0;
     
-for ($i=1;$i<=12;$i++){
+for ($mes=1;$mes<=12;$mes++){
     $cantidad = rand(0,250);
     $total += $cantidad;
-    echo "este mes has ahorrado $cantidad € y llevas $total en total<br>";
+    echo "este mes $mes has ahorrado $cantidad € y llevas $total en total<br>";
 }
 ?>
 

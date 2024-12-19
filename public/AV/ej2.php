@@ -8,7 +8,16 @@
     
     <?php
         //INTRODUCE AQUÍ TU CÓDIGO
-    
+        if($_SERVER["REQUEST_METHOD"]=="POST"){
+            $num=$_POST["num"] 
+            if($num/2==0){
+               $num/2 
+            }else{
+               $num*+1 
+            }
+
+            
+        }
         
     ?>
     
